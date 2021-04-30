@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- external css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="heading">DelphianLogic in Action</div>
+      <div class="sub-heading text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+      </div>
+      <div class="box">
+        <div class="row">
+          <div class="col col-sm-12 col-md-3 box1">
+            <nav class="nav justify-content-center">
+              <ol class="carousel-indicators"></ol>
+              <!-- 1st tab -->
+              <div>
+                  <div class="adj" id="adj1">
+                    <li data-target="#carouselId" data-slide-to="0" class="active">
+                      <img src="./asset/image/DL-learning.svg" class="icon" alt="" />
+                      <a class="nav-link text-center center" href="#"> Learning</a>
+                    </li>
+                  </div>
+                  
+              </div>
+              <!-- 2nd tab -->
+              <div>
+                    <div class="adj" id="adj2">
+                      <li data-target="#carouselId" data-slide-to="1"><img
+                        src="./asset/image/DL-technology.svg"
+                        class="icon"
+                        alt=""
+                      /><span><a class="nav-link text-center center" href="#">Technology</a></span></li>
+                    </div>
+                    
+              </div>
+              <div>
+                    <div class="adj" id="adj3">
+                      <li data-target="#carouselId" data-slide-to="2">
+                        <img
+                        src="./asset/image/DL-communication.svg"
+                        class="icon"
+                        alt=""
+                      />
+                      <a class="nav-link text-center center" href="#" id="communication"
+                        >Communication</a
+                      >
+                      </li>
+                      
+                    </div>
+                    
+                </div>
+            </nav>
+          </div>
+          <!-- column 2 -->
+          <div class="col col-sm-12 col-md-5 box2">
+            
+            <div id="carouselId" class="carousel slide" data-ride="carousel">
+             
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <span class="digi-heading">DIGITAL LEARNING INFRASTRUCTURE</span>
+                  <div class="text-center content">
+                    Usability enhancement and Training For Transaction Portal For
+                    Customers
+                  </div>
+                  <span><a href="#" class="lmore">Learn More &#8594;</a></span>
+                </div>
+                <div class="carousel-item">
+                  <span class="digi-heading">DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                  <div class="text-center content">
+                    Technology definition, the branch of knowledge that deals with the creation
+                  </div>
+                  <span><a href="#" class="lmore">Learn More &#8594;</a></span>
+                </div>
+                <div class="carousel-item">
+                  <span class="digi-heading">DIGITAL COMMUNICATION INFRASTRUCTURE</span>
+                  <div class="text-center content">
+                    Communication is simply the act of transferring information from one place, person or group to another
+                  </div>
+                  <span><a href="#" class="lmore">Learn More &#8594;</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column-2 end here -->
+          <!-- column -3 start -->
+          <div class="col col-sm-12 col-md-4">
+            <div class="box3">
+            
+
+            </div>
+          </div>
+          <!-- column-3 end -->
+         
+      </div>
+    </div>
+    <!-- mobile view -->
+    <div class="container mobile">
+      <div id="accordianId" role="tablist" aria-multiselectable="true">
+        <div class="card gap">
+          <div class="card-body" role="tab" id="section1HeaderId">
+            
+            <h5 class="mb-0 mo-text">
+              <img src="./asset/image/DL-learning.svg" class="icon" alt="" />
+              Learning
+              <a class="mo-text" data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
+                <div class="plus" id="btn1">
+                  <img src="./asset/image/plus-01.svg">
+                </div>
+                <div class="minus" id="btn01">
+                  <img src="./asset/image/minus-01.svg">
+                </div>
+              </a>
+            </h5>
+          </div>
+        </div>
+     <div class="div">
+      <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+        <div class="card-body">
+          <div class="mo-box2">
+            <span class="digi-heading">DIGITAL LEARNING INFRASTRUCTURE</span>
+            <div class="text-center digi-con">
+              Usability enhancement and Training For Transaction Portal For
+              Customers
+            </div>
+            <span><a href="#" class="lmore">Learn More &#8594;</a></span>
+          </div>
+        
+        </div>
+      </div>
+     </div>
+       
+        <div class="card gap">
+          <div class="card-body" role="tab" id="section2HeaderId">
+            <div>
+             
+            </div>
+            <h5 class="mb-0 mo-text">
+              <img src="./asset/image/DL-technology.svg" class="icon" alt="" />
+              Technology
+              <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
+                <div class="plus" id="btn2">
+                  <img src="./asset/image/plus-01.svg">
+                </div>
+                <div class="minus" id="btn02">
+                  <img src="./asset/image/minus-01.svg">
+                </div>
+              </a>
+
+            </h5>
+          </div>
+          
+        </div>
+        <div class="div">
+          <div id="section2ContentId" class="collapse in" role="tabpane2" aria-labelledby="section2HeaderId">
+            <div class="card-body">
+              <div class="mo-box2">
+                <span class="digi-heading"> DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                <div class="text-center digi-con">
+                  Usability enhancement and Training For Transaction Portal For
+                  Customers
+                </div>
+                <span><a href="#" class="lmore">Learn More &#8594;</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card gap">
+          <div class="card-body" role="tab" id="section3HeaderId">
+            <h5 class="mb-0 mo-text">
+              <img src="./asset/image/DL-communication.svg" class="icon" alt="" />
+              Communication
+              <a data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId" aria-expanded="true" aria-controls="section2ContentId">
+                <div class="plus" id="btn3">
+                  <img src="./asset/image/plus-01.svg">
+                </div>
+                <div class="minus" id="btn03">
+                  <img src="./asset/image/minus-01.svg">
+                </div>
+              </a>
+            </h5>
+          </div>
+          
+        </div>
+        <div class="div">
+          <div id="section3ContentId" class="collapse in" role="tabpane3" aria-labelledby="section3HeaderId">
+            <div class="card-body">
+              <div class="mo-box2">
+                <span class="digi-heading">DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                <div class="text-center digi-con">
+                  Usability enhancement and Training For Transaction Portal For
+                  Customers
+                </div>
+                <span><a href="#" class="lmore">Learn More &#8594;</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+
+    <!-- Js -->
+    <script src="./asset/js/add.js"></script>
+    <script>
+      $(document).ready(function(){
+  $("#adj1").click(function(){
+    $(".box3").removeClass("adj2");
+    $(".box3").removeClass("adj3");
+    $(".box3").addClass("adj1");
+    console.log("yes");
+  });
+  $("#adj2").click(function(){
+    $(".box3").removeClass("adj1");
+    $(".box3").removeClass("adj3");
+    $(".box3").addClass("adj2");
+  });
+  $("#adj3").click(function(){
+    $(".box3").removeClass("adj1");
+    $(".box3").removeClass("adj2");
+    $(".box3").addClass("adj3");
+  });
+});
+    </script>
+   
+   
+ 
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
