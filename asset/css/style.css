@@ -137,6 +137,9 @@ body {
   .box {
     display: none;
   }
+  body {
+    overflow-x: hidden;
+  }
   .heading {
     position: absolute;
     top: 20px;
