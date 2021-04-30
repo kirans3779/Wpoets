@@ -1,5 +1,6 @@
 body {
   background-color: #133757;
+  overflow-x: hidden;
 }
 
 .heading {
@@ -133,12 +134,15 @@ body {
 }
 /* mobile view */
 @media only screen and (max-width: 460px) {
+  .box {
+    display: none;
+  }
   .heading {
     position: absolute;
     top: 20px;
     left: 30px;
     font-size: 28px;
-    width: 500px;
+
     color: rgba(250, 249, 249, 0.801);
   }
   .sub-heading {
