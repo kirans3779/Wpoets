@@ -132,7 +132,7 @@ body {
   top: -35px;
 }
 /* mobile view */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 460px) {
   .heading {
     position: absolute;
     top: 20px;
